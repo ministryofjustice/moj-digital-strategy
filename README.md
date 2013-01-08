@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *"Publish, don't send."* - Mike Bracken
 
 # What is this?
@@ -256,3 +257,7 @@ __8/11/12__
 
 __7/11/12__
 - initial release!
+=======
+moj-digital-strategy
+====================
+>>>>>>> 71142c46156f3fb2b13d28cacc7485a89b2f66bb

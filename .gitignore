@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 markdown-out/
 .DS_Store
 built/
@@ -15,3 +16,23 @@ deploy/
 config/pdf.config.yml
 config/s3.config.yml
 source/digital/assisted
+=======
+*.gem
+*.rbc
+.bundle
+.config
+coverage
+InstalledFiles
+lib/bundler/man
+pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
+
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
+>>>>>>> 71142c46156f3fb2b13d28cacc7485a89b2f66bb
