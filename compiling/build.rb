@@ -53,6 +53,7 @@ command :build do |c|
       end
     }
     Utils.make_if_not_exists("assets/css")
+   ## Utils.make_if_not_exists("assets/images")
     Utils.make_if_not_exists("temp")
   end
 
@@ -73,5 +74,6 @@ command :build do |c|
     Shell.execute("rm -r built/*")
     Shell.execute("rm -r temp/*")
     Shell.execute("rm -r assets/css/*")
+  ##  Shell.execute("rm -r assets/images/*")
   end
 end

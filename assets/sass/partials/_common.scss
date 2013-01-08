@@ -55,9 +55,9 @@ html{
 }
 .container {
   margin: 0 auto;
-  font-family:Helmet, Freesans, sans-serif;
   @include core-14;
   color: $text-colour;
+  font-family: Helmet, Freesans, sans-serif;
 }
 
 a{
@@ -132,6 +132,7 @@ h6{
   @include copy-19;
   color: $black;
   padding-top: 5px;
+  font-family:Georgia, Serif;
 }
 h1,
 h2,
@@ -292,7 +293,8 @@ hr {
 // PAGE FOOTER
 //
 .footer{
-  background-color: $light-grey;
+  background-color: $black;
+  color:#fff;
   position: relative;
   z-index: 100;
   border-top:1px solid $grey;
@@ -310,7 +312,7 @@ hr {
     }
   }
   a{
-    color:#333;
+    color:#fff;
     &.copyright{
       margin-top: 25px;
       margin-left: 25px;

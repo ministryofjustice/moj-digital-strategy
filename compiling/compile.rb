@@ -90,7 +90,7 @@ class Compile
 
       template.gsub!(/<!--TIME-->/, Time.now.to_s)
       template.gsub!(/<!--META-->/) {
-        File.exists?("source/#{parent_path}/meta.html") ? Utils.read_from_file("source/#{parent_path}/meta.html") : "Government Digital Strategy"
+        File.exists?("source/#{parent_path}/meta.html") ? Utils.read_from_file("source/#{parent_path}/meta.html") : "Ministry of Justice Digital Strategy"
       }
       template.gsub!(/<!--REPLACE-->/) {
         data = ""

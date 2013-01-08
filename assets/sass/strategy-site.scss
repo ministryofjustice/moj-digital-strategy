@@ -15,7 +15,7 @@
 $left-margin: 240px + 65px;                // Left margin of the page
 $section-index-width: $left-margin - 70;   // Width of the section indexes
 $content-width: 80%;                       // Width of the main content area
-$colour-scheme: $blue;               			 // Sets primary colour for document
+$colour-scheme: $black;               			 // Sets primary colour for document
 
 
 // --------------------------------------------------------------------------------
@@ -31,13 +31,15 @@ $colour-scheme: $blue;               			 // Sets primary colour for document
     width: 100%;
     color: #fff;
     padding: 35px 0;
-    @include gradient($blue, #52BBD9);
+    @include gradient($black, #373737);
     h1{
       color: #fff;
       font-weight: 300;
+      font-family: Helmet, Freesans, sans-serif;
     }
     .title{
       margin-left: $margin;
+      font-family: Georgia, Serif;
       
       @include media(mobile){
         margin-left: $margin / 2;
@@ -380,6 +382,8 @@ $aspect-ratio: 0.56;
     }
   }
 }
+
+
 .home-page .media-player{
   margin-left: $base-unit;
 }
