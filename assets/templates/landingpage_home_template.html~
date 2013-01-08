@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 9]><html class="lte-ie8 " lang="en"><![endif]--><!--[if gt IE 8]><!--><html lang="en">
+<!--<![endif]--><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Ministry of Justice Digital Strategy</title>
+    {include favicon.html}
+<link href="/assets/css/media-player.css" media="screen" rel="stylesheet" type="text/css">
+<!--[if gt IE 8]><!--><link href="/assets/css/strategy-site.css" rel="stylesheet" type="text/css" media="screen">
+<!--<![endif]--><!--[if IE 6]><link href="/assets/css/strategy-site-ie6.css" rel="stylesheet" type="text/css" media="screen"><![endif]--><!--[if IE 7]><link href="/assets/css/strategy-site-ie7.css" rel="stylesheet" type="text/css" media="screen"><![endif]--><!--[if IE 8]><link href="/assets/css/strategy-site-ie8.css" rel="stylesheet" type="text/css" media="screen"><![endif]-->
+{include javascriptscripts.html}
+{include favicon.html}
+    <link href="/assets/css/print.css" rel="stylesheet" type="text/css" media="print">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body class="home-page">
+    <div class="container">
+      <div class="header">
+        <p class="logo">
+          <a href="http://www.justice.gov.uk">
+            <img src="/assets/images/moj-crest.png" />
+            <span class="main-logo cabinet-office">Ministry of Justice</span>
+          </a>
+        </p>
+        <p class="cookie-link"><a href="http://www.justice.gov.uk/privacy/cookies">Cookies</a></p>
+        <p class="collection-link">Ministry of Justice Digital Strategy</p>
+      </div>
+
+<!--REPLACE-->
+
+{include footer.html}
+
+  </div>
+  {include analytics/digital.html}
+</body>
+</html>
